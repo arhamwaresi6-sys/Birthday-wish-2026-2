@@ -40,6 +40,7 @@ bday.website/
 ### Quick Start
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/rkruk/bday.website.git
    cd bday.website
@@ -48,10 +49,11 @@ bday.website/
 2. **Open in browser**:
    - Simply open `index.html` in your web browser
    - Or use a local server for better experience:
+
    ```bash
    # Using Python 3
    python -m http.server 8000
-   
+
    # Using Node.js (if you have live-server installed)
    npx live-server
    ```
@@ -65,8 +67,8 @@ bday.website/
 To personalize the birthday message:
 
 1. **Edit the HTML content** in `index.html`:
-   - Replace `(add_Birthday_Person_Name)` with the person's name
-   - Update `(add_day_here)` and `(add_month_here)` with birthday details
+   - Replace `Nahii..(Home minister)` with the person's name
+   - Update `13` and `July` with birthday details
    - Modify the date in the code section
 
 2. **Customize styling** in `css/default.css`:
@@ -125,12 +127,20 @@ Edit `css/default.css` to modify the color scheme:
 
 ```css
 /* Main background */
-body { background: #000; }
+body {
+  background: #000;
+}
 
 /* Text colors */
-.comments { color: #7F7F7F; }
-.keyword { color: #06C; }
-.string { color: #080; }
+.comments {
+  color: #7f7f7f;
+}
+.keyword {
+  color: #06c;
+}
+.string {
+  color: #080;
+}
 ```
 
 ### Modifying Animation Speed
@@ -151,9 +161,7 @@ Update the HTML in `index.html`:
 
 ```html
 <div id="messages">
-    <div id="loveu">
-        Your custom birthday message here!
-    </div>
+  <div id="loveu">Your custom birthday message here!</div>
 </div>
 ```
 
@@ -194,4 +202,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-*Made with ❤️ for special birthday celebrations*
+_Made with ❤️ for special birthday celebrations_
